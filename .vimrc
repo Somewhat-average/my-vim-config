@@ -73,7 +73,7 @@ set timeoutlen=1000 ttimeoutlen=0
 " Allow switching between buffers without saving
 set hidden
 
-" Remove automatic formatting for specific file types
+" Remove automatic commenting on new line?
 autocmd Filetype * setlocal formatoptions-=c formatoptions-=r  formatoptions-=o
 
 " Set color scheme
@@ -112,7 +112,7 @@ nnoremap <leader>s :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>
 " Comment selection with block comment
 nnoremap <leader>/ I/* <Esc>A */<Esc>^
 
-" Delete trailing whitespace
+" Delete block comment section
 nnoremap <leader>\ ^d3l<Esc>$d2hx<Esc>^
 
 " LEARN HOW TO USE ins-completion
