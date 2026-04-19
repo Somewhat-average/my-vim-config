@@ -26,13 +26,13 @@ set rnu
 set number
 
 " Set tab stop width to 4 spaces
-let tabstop=4
+set tabstop=4
 
 " Set shift width for indentation to 4 spaces
-let shiftwidth=4
+set shiftwidth=4
 
 " Set scroll offset to 8 lines
-let scrolloff=8
+set scrolloff=8
 
 " Disable netrw banner
 let g:netrw_banner=0
