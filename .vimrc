@@ -79,6 +79,11 @@ autocmd Filetype * setlocal formatoptions-=c formatoptions-=r  formatoptions-=o
 " Set color scheme
 colorscheme sorbet
 
+" Optional transparant background
+" highlight Normal ctermbg=NONE guibg=NONE
+" highlight NonText ctermbg=NONE guibg=NONE
+" highlight EndOfBuffer ctermbg=NONE guibg=NONE
+
 " Set leader key to space
 let g:mapleader = " "
 
